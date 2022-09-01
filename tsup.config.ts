@@ -4,7 +4,7 @@ export default defineConfig({
 	entry: ["src/index.ts"],
 	clean: true,
 	dts: true,
-	sourcemap: "inline",
+	sourcemap: true,
 	format: ["esm"],
 	loader: {
 		".jpg": "base64",
